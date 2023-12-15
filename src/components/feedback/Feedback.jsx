@@ -12,4 +12,5 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
     </div>
   );
 
+
   export { FeedbackOptions };
