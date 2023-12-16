@@ -36,7 +36,7 @@ import { Notification } from "components/notification/Notification";
       <div>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['good', 'neutral', 'bad']}
+            options={Object.keys(this.state)} 
             onLeaveFeedback={this.handleFeedback}
           />
         </Section>
